@@ -1,0 +1,82 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-color:#F5C52C;
+
+}
+.main-body{
+  background-color:#ffffff;
+  height:80vh;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  text-transform:capitalize;
+  border-radius: 30px;
+  box-shadow: 0 0 15px 5px #0006;
+}
+
+.todoitem{
+  display: flex;
+  justify-content: space-between;
+  height:70px;
+  margin:5px 15px;
+  border-bottom:1px solid #cccc ;
+}
+.todoitem div{
+  display: flex;
+}
+.todoitem div input{
+  margin-top: 5px;
+  margin-right: 3px;
+  height: 20px;
+  width: 20px;
+}
+.todoitem button{
+  display: block;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.todoitem button img{
+  height: 50px;
+  width: 50px;
+}
+.additem{
+  display: flex;
+  justify-content: center;
+}
+.additem input{
+  margin:15px 5px;
+  height: 30px;
+  width: 80%;
+}
+.additem button{
+  height: 40px;
+  width: 40px;
+  border-radius:50% ;
+  background-color:#000;
+  color:#ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+}
+.additem input{
+  padding: 0px 5px;
+ 
+}
+h1{
+  font-size: 20px;
+  text-align: center;
+}
+.header{
+  display: flex;
+  justify-content:center;
+  color:#fff;
+  font-size:20px;
+}
